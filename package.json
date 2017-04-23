@@ -1,6 +1,6 @@
 {
   "name": "tmtheme-to-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert Textmate theme files to JSON for use with Visual Studio Code.",
   "main": "index.js",
   "bin": "./cmd.js",
