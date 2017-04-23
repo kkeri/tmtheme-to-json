@@ -45,7 +45,7 @@ describe('multistyle', function() {
 function testFile(fname) {
   fname = __dirname + '/' + fname
   var theme = convertTheme(fs.readFileSync(fname + '.tmTheme', 'utf-8'))
-  fs.writeFileSync(fname + '.out.json', JSON.stringify(theme, null, 2))
+  //fs.writeFileSync(fname + '.out.json', JSON.stringify(theme, null, 2))
   ref = JSON.parse(fs.readFileSync(fname + '.ref.json', 'utf-8'))
   assert.deepEqual(theme, ref)
 }
