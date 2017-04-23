@@ -1,4 +1,4 @@
-﻿# tmtheme-to-json
+# tmtheme-to-json
 
 Converts a `.tmTheme` file to an equivalent JSON representation to be used
 with Visual Studio Code.
