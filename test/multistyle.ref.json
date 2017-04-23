@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "settings": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic bold",
+        "foreground": "#967164"
+      }
+    }
+  ],
+  "colorSpaceName": "sRGB",
+  "semanticClass": "theme.dark.test"
+}

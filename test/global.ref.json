@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "settings": [
+    {
+      "settings": {
+        "background": "#1c1818",
+        "caret": "#b0b0b0",
+        "foreground": "#b0b0b0",
+        "invisibles": "#3d3536",
+        "lineHighlight": "#1c1818",
+        "selection": "#443736"
+      }
+    }
+  ],
+  "colorSpaceName": "sRGB",
+  "semanticClass": "theme.dark.test"
+}

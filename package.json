@@ -1,0 +1,31 @@
+{
+  "name": "tmtheme-to-json",
+  "version": "0.0.0",
+  "description": "Convert Textmate theme files to JSON for use with Visual Studio Code.",
+  "main": "index.js",
+  "bin": "./cmd.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkeri/tmtheme-to-json"
+  },
+  "keywords": [
+    "theme",
+    "tmtheme",
+    "textmate",
+    "vscode",
+    "json"
+  ],
+  "author": "Kalman Keri",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "plist": "^2.0.1"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "settings": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#967164"
+      }
+    }
+  ],
+  "colorSpaceName": "sRGB",
+  "semanticClass": "theme.dark.test"
+}

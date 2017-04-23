@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>test</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1c1818</string>
+				<key>caret</key>
+				<string>#b0b0b0</string>
+				<key>foreground</key>
+				<string>#b0b0b0</string>
+				<key>invisibles</key>
+				<string>#3d3536</string>
+				<key>lineHighlight</key>
+				<string>#1c1818</string>
+				<key>selection</key>
+				<string>#443736</string>
+			</dict>
+		</dict>
+	</array>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.dark.test</string>
+</dict>
+</plist>
