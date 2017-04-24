@@ -1,15 +1,15 @@
 # tmtheme-to-json
 
-Converts a `.tmTheme` file to an equivalent JSON representation to be used
+Converts a `.tmTheme` file into an equivalent JSON representation to be used
 with Visual Studio Code.
 
-*Note: if all you want is to use a theme with VS Code, you don't need
-to convert it. VS Code can consume a `.tmTheme` file directly.
-Althought you may find it easier to edit your theme in JSON format.*
+*If all you want is to use a theme with VS Code, you don't need
+to convert it. VS Code can consume `.tmTheme` files directly,
+although you may find it easier to edit your theme in JSON format.*
 
 All optional and custom properties are preserved during conversion.
 The theme is not validated by the tool.
-Check your theme file if it doesn't function as expected.
+Please check the theme file if it doesn't function as expected.
 
 ## Installation
 
@@ -25,7 +25,7 @@ tmtheme-to-json my.tmTheme
 
 This will create `my.tmTheme.json` in the same directory.
 
-You can specify multiple input files *(globs are not working on Windows)*.
+You can even specify multiple input files (globs are not supported on Windows).
 
 ## Usage in code
 

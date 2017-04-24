@@ -1,11 +1,11 @@
 var plist = require('plist')
  
 /**
- * Converts a loaded tmTheme file to a theme in VS Code format.
- * The returned object can be passed to `JSON.stringify()` to get a valid
+ * Converts a loaded tmTheme file into a theme in VS Code format.
+ * The returned object can be passed to `JSON.stringify()` to produce a valid
  * VS Code theme file.
  * @return a javascript object
- * @param {String} str - xml string (plist format)
+ * @param {String} str - xml string (in plist format)
  */
 function convertTheme(str) {
   var theme = plist.parse(str)
@@ -36,6 +36,5 @@ function convertScopedSettings(o) {
   }
   return o
 }
-
 
 exports.convertTheme = convertTheme
