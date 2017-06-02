@@ -23,10 +23,12 @@
   },
   "devDependencies": {
     "assert": "^1.4.1",
+    "crlf": "^1.1.0",
     "mocha": "^3.2.0"
   },
   "scripts": {
     "test": "mocha",
-    "preversion": "npm test"
+    "preversion": "npm test",
+    "prepare": "crlf --set=LF cmd.js"
   }
 }
